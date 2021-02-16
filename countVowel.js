@@ -36,4 +36,4 @@ for(let i = 0 ; i < txt.length ; ++i){
       count = count+1
   }
 } 
-console.log(count)
+console.log('il y a '+count+' voyelles en comptant les majuscules')
