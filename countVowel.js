@@ -26,14 +26,14 @@ let count = 0
  
 for(let i = 0 ; i < txt.length ; ++i){
   if(
-    txt[i] === LetterE || txt[i]=== LetterE.toUpperCase() ||
-     txt[i] === LetterA || txt[i]=== LetterA.toUpperCase() ||
-       txt[i] === LetterI || txt[i]=== LetterI.toUpperCase() ||
-     txt[i] === LetterO || txt[i]=== LetterO.toUpperCase() ||
-       txt[i] === LetterU || txt[i]=== LetterU.toUpperCase() ||
-     txt[i] === LetterY || txt[i]=== LetterY.toUpperCase()    
-     ){
-    count = count+1
+      txt[i] === LetterE || txt[i]=== LetterE.toUpperCase() ||
+      txt[i] === LetterA || txt[i]=== LetterA.toUpperCase() ||
+      txt[i] === LetterI || txt[i]=== LetterI.toUpperCase() ||
+      txt[i] === LetterO || txt[i]=== LetterO.toUpperCase() ||
+      txt[i] === LetterU || txt[i]=== LetterU.toUpperCase() ||
+      txt[i] === LetterY || txt[i]=== LetterY.toUpperCase()    
+    ){
+      count = count+1
   }
 } 
 console.log(count)
